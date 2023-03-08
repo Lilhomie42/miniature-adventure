@@ -76,24 +76,47 @@ main {
 }
 
 .big {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid;
+    flex: 4 2 480px;
+    /* align-content: center;
+    align-items: center;
+    flex-direction: column; */
 }
 
 .card {
     border: 2px solid violet;
     border-radius: 5px;
     padding: 10px;
-    flex: 0 0 400px;
+    flex: 0 2 440px;
+    margin: 17px;
 }
 
-.card header {
+.card header, .big header {
     padding: 20px;
     display: flex;
     justify-content: center;
     
 }
 
-.card img {
+.big{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid;
+    /* height: 250px; */
+    flex-direction: column;
+    /* width: 650px; */
+    align-items: center;
+    /* flex: 5 2 480px; */
+    align-content: center;
+}
+
+.card img, .header img {
     width: 100%;
 }
 
@@ -103,6 +126,8 @@ aside {
     color: #ffffff;
     padding: 80px;
     text-align: center;
+    display: grid;
+    row-gap: 20px;
 }
 
 footer {
@@ -112,7 +137,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     main,
-    nav {
+    nav, header, footer, nav ul {
       flex-direction: column;
     }
   }
