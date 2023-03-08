@@ -24,11 +24,10 @@ While work on the challenges it ran different tests of layouts for the website. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- Go to `assets` folder then `images` folder screenshot is titled `Module-02-screenshot.png` 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+- In VS Code follow this path `./assets/images/Module-02-screenshot.png`
 
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
