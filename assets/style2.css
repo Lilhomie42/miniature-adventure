@@ -3,16 +3,18 @@
     margin: 0;
     padding: 0;
     /* background-color: #24252a; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 body {
     height: 100vh;
     width: auto;
-} 
+}
 
 
-li, .nav-links{
+li,
+.nav-links {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -25,11 +27,15 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    
+
 
 }
 
-header, nav, ul, li, .nav-links  {
+header,
+nav,
+ul,
+li,
+.nav-links {
     background-color: #A64DE3;
 }
 
@@ -95,14 +101,15 @@ main {
     margin: 17px;
 }
 
-.card header, .big header {
+.card header,
+.big header {
     padding: 20px;
     display: flex;
     justify-content: center;
-    
+
 }
 
-.big{
+.big {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,8 +123,10 @@ main {
     align-content: center;
 }
 
-.card img, .header img {
+.card img,
+.header img {
     width: 100%;
+    height: fit-content;
 }
 
 aside {
@@ -126,8 +135,16 @@ aside {
     color: #ffffff;
     padding: 80px;
     text-align: center;
-    display: grid;
-    row-gap: 20px;
+
+}
+
+aside h2 {
+    font-size: 2em;
+    margin: 20px 0px 20px;
+}
+
+aside p {
+    font-size: 1.2em;
 }
 
 footer {
@@ -136,11 +153,15 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
     main,
-    nav, header, footer, nav ul {
-      flex-direction: column;
+    nav,
+    header,
+    footer,
+    nav ul {
+        flex-direction: column;
     }
-  }
+}
 
 
 
@@ -152,14 +173,14 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   } */
-  
-  /* 
+
+/* 
   What is the flex property a shorthand property for?
   It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
   What is it doing here?
   We are making the product card not growable, not shrinkable, and with an initial length of 400px 
   */
-  /* .card {
+/* .card {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
@@ -179,13 +200,13 @@ footer {
     width: 100%;
   }
    */
-  /* 
+/* 
   What does the flex-direction property define?
   It defines in which direction the container wants to stack the flex items
   What is it doing here? 
   We are telling the main body and navbar to stack vertically in a column
   */
-  /* @media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     main,
     nav {
       flex-direction: column;
