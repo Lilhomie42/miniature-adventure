@@ -136,6 +136,10 @@ main {
 
 }
 
+.card:hover {
+    box-shadow: inset 0px 0px 8px #A64DE3, 0 0 15px #A64DE3;  ;
+}
+
 aside {
     flex: 1;
     background-color: #3f4046;
