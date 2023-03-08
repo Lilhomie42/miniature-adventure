@@ -80,9 +80,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
-.big {
+/* .big {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,8 +93,8 @@ main {
     /* align-content: center;
     align-items: center;
     flex-direction: column; */
-    background-color: azure;
-}
+    /* background-color: azure; */ 
+
 
 .card {
     border: 2px solid violet;
@@ -109,22 +110,25 @@ main {
     display: flex;
     justify-content: center;
     font-size: 25px;
+    color: #ffffff;
 
 }
-
-.big {
+.box {
+    flex-basis: auto;
+}
+/* .big {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
     border: 2px solid;
-    /* height: 250px; */
+    height: 250px;
     flex-direction: column;
-    /* width: 650px; */
+    width: 650px;
     align-items: center;
     flex: 5 2 480px;
     align-content: center;
-}
+} */
 
 
     
