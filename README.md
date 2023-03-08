@@ -14,13 +14,13 @@ While work on the challenges it ran different tests of layouts for the website. 
 
 2. Got to https://github.com and create an account or sign in.
 
-3. Once signed into Github click this link to redirect to the Repo: https://github.com/Lilhomie42/miniature-adventure then click on the code drop-down and click git clone and copy the  HTTPS or SSH.
+3. Once signed into Github click this link to redirect to the Repo: https://github.com/Lilhomie42/miniature-adventure then click on the code drop-down and click `git clone` and copy the  HTTPS or SSH.
 
-4. Then open your terminal, make sure you're in your local repo directory. Once in your directory type in the terminal 'git clone' '<And Paste HTTPS or SSH>'.
+4. Then open your terminal, make sure you're in your local repo directory. Once in your directory type in the terminal `git clone` `<And Paste HTTPS or SSH>`.
 
-5. Then type in terminal 'git pull origin main' you see a message 'in main branch'.
+5. Then type in terminal 'git pull origin main' you see a message `in main branch`.
 
-6. Type in terminal 'code .' to open repo in VS code.
+6. Type in terminal `code .` to open repo in VS code.
 
 ## Usage
 
